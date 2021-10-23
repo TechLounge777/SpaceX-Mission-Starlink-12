@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <nav>
         <Image src="/arrow-left.svg" width={15} height={24} alt="" />
-        <Image src="/spacex-logo.svg" width={247} height={24} alt="" />
+        <Image src="/spacex-logo.svg" width={300} height={36} alt="" />
         <Image src="/arrow-right.svg" width={15} height={24} alt="" />
       </nav>
       <main></main>
