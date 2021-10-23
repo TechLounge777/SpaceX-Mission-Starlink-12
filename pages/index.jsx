@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar/Navbar";
+import MissionStarlinkSection from "../components/MissionStarlinkSection/MissionStarlinkSection";
+import RescueShips from "../components/RescueShips/RescueShips";
 
 export default function Home() {
   return (
@@ -19,7 +21,10 @@ export default function Home() {
         />
       </Head>
       <Navbar />
-      <main></main>
+      <main>
+        <MissionStarlinkSection />
+        <RescueShips />
+      </main>
     </div>
   );
 }
