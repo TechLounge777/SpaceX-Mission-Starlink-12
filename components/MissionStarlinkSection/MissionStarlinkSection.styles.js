@@ -118,13 +118,7 @@ export const LaunchSiteInfo = styled.h3`
   font-weight: 500;
   line-height: 21px;
   color: #ffffff;
-  cursor: pointer;
   margin-bottom: 166px;
-  &:hover {
-    ${LaunchSiteDetails} {
-      display: block;
-    }
-  }
 `;
 
 export const LaunchSiteDetails = styled.div`
