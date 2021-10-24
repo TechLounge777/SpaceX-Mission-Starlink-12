@@ -86,7 +86,6 @@ export const LeftSection = styled.div`
   flex-wrap: wrap;
   background: #ffffff;
   margin-top: 14px;
-  margin-bottom: 20px;
 `;
 
 export const HomePortTitle = styled.h2`
@@ -113,7 +112,6 @@ export const RightSection = styled.div`
   flex-wrap: wrap;
   background: #ffffff;
   margin-top: 14px;
-  margin-bottom: 20px;
 `;
 
 export const HomePort = styled.h2`
@@ -131,6 +129,5 @@ export const Weight = styled.h2`
   line-height: 24px;
   font-weight: 700;
   color: #000000;
-  margin-bottom: 20px;
   background: #ffffff;
 `;

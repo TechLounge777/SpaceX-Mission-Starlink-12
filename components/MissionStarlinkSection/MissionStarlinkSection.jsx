@@ -23,7 +23,7 @@ const MissionStarlinkSection = () => {
       <LeftMissionSection>
         <Mission>MISSION</Mission>
         <MissionName>Starlink-12 (v1.0)</MissionName>
-        <Rocket>Rocket</Rocket>
+        <Rocket>ROCKET</Rocket>
         <RocketInfo>
           <RocketName>Falcon 9</RocketName>
           <RocketState>RECOVERED</RocketState>
