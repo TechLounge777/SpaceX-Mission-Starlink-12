@@ -7,6 +7,12 @@ export const MissionSectionWrapper = styled.div`
   border-bottom: solid 1px #5c5c5d;
   max-width: 1140px;
   margin: auto;
+  @media (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 15px;
+  }
 `;
 
 export const LeftMissionSection = styled.div`
@@ -21,6 +27,7 @@ export const Mission = styled.h4`
   line-height: 18px;
   color: #868686;
   margin-top: 36px;
+  letter-spacing: 0.1em;
 `;
 
 export const MissionName = styled.h1`
@@ -37,6 +44,7 @@ export const Rocket = styled.h4`
   font-weight: 500;
   line-height: 18px;
   color: #868686;
+  letter-spacing: 0.1em;
 `;
 
 export const RocketInfo = styled.div`
@@ -80,12 +88,22 @@ export const StyledButton = styled.button`
   font-weight: 500;
   border: 1px solid #ffffff;
   margin-bottom: 40px;
+  @media (max-width: 375px) {
+    margin: auto;
+  }
 `;
 
 export const RightMissionSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  @media (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: auto;
+    padding-left: 15px;
+  }
 `;
 
 export const LaunchDateTitle = styled.h4`
@@ -95,6 +113,7 @@ export const LaunchDateTitle = styled.h4`
   color: #868686;
   margin-top: 36px;
   margin-bottom: 8px;
+  letter-spacing: 0.1em;
 `;
 
 export const LaunchDateInfo = styled.h3`
@@ -111,6 +130,7 @@ export const LaunchSiteTitle = styled.h4`
   color: #868686;
   margin-top: 23px;
   margin-bottom: 8px;
+  letter-spacing: 0.1em;
 `;
 
 export const LaunchSiteInfo = styled.h3`
@@ -119,6 +139,9 @@ export const LaunchSiteInfo = styled.h3`
   line-height: 21px;
   color: #ffffff;
   margin-bottom: 166px;
+  @media (max-width: 375px) {
+    margin-bottom: 20px;
+  }
 `;
 
 export const LaunchSiteDetails = styled.div`

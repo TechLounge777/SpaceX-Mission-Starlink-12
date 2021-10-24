@@ -3,9 +3,13 @@ import styled from "styled-components";
 export const RescueShipsWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   max-width: 1140px;
   margin: auto;
+  @media (max-width: 375px) {
+    margin-bottom: 85px;
+  }
 `;
 
 export const Title = styled.h4`
@@ -17,14 +21,23 @@ export const Title = styled.h4`
   color: #868686;
   margin-right: auto;
   margin-top: 36px;
+  letter-spacing: 0.1em;
+  @media (max-width: 375px) {
+    padding: 0 25px;
+    margin-top: 17px;
+  }
 `;
 
 export const CardsWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin: auto;
   gap: 30px;
+  @media (max-width: 375px) {
+    gap: 0;
+  }
 `;
 
 export const Card = styled.div`
@@ -34,6 +47,10 @@ export const Card = styled.div`
   justify-content: center;
   max-width: 360px;
   margin-bottom: 195px;
+  @media (max-width: 375px) {
+    margin: 0 15px;
+    margin-bottom: 20px;
+  }
 `;
 
 export const ImageWrapper = styled.div`
@@ -68,6 +85,9 @@ export const CardTitle = styled.h2`
 export const LineBreak = styled.hr`
   border: 1px solid #e8e8e8;
   width: 330px;
+  @media (max-width: 375px) {
+    margin: 0 15px;
+  }
 `;
 
 export const CardDetails = styled.div`
@@ -93,6 +113,8 @@ export const HomePortTitle = styled.h2`
   font-size: 12px;
   line-height: 24px;
   font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: #868686;
   background: #ffffff;
 `;
@@ -102,6 +124,8 @@ export const WeightTitle = styled.h2`
   font-size: 12px;
   line-height: 24px;
   font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: #868686;
   background: #ffffff;
 `;

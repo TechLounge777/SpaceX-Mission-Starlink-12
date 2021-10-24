@@ -8,6 +8,10 @@ export const Nav = styled.nav`
   max-width: 1140px;
   margin: auto;
   height: 150px;
+  @media (max-width: 375px) {
+    margin: 0 20px;
+    height: 85px;
+  }
 `;
 
 export const LeftArrow = styled.div`
@@ -16,6 +20,9 @@ export const LeftArrow = styled.div`
 
 export const Logo = styled.div`
   display: flex;
+  @media (max-width: 375px) {
+    max-width: 164px;
+  }
 `;
 
 export const RightArrow = styled.div`
