@@ -6,9 +6,11 @@ import MissionStarlinkSection from "../components/MissionStarlinkSection/Mission
 import RescueShips from "../components/RescueShips/RescueShips";
 
 export default function Home({ launchesPast }) {
-  const launchdate = launchesPast;
-  console.log(launchdate);
   console.log(launchesPast);
+  const starlink12 = launchesPast.find(
+    (obj) => obj.mission_name == "Starlink-12 (v1.0)"
+  );
+  console.log(starlink12);
   return (
     <div>
       <Head>
