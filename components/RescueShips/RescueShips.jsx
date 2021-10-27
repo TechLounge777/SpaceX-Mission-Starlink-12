@@ -26,29 +26,7 @@ const RescueShips = () => {
       <CardsWrapper>
         <Card>
           <ImageWrapper>
-            <Image src="/beach.jpg" width={360} height={200} alt="" />
-          </ImageWrapper>
-
-          <CardInfo>
-            <CardTitle>GO Ms Tree</CardTitle>
-            <LineBreak />
-            <CardDetails>
-              <LeftSection>
-                <HomePortTitle>HOME PORT</HomePortTitle>
-                <WeightTitle>WEIGHT [KG]</WeightTitle>
-              </LeftSection>
-
-              <RightSection>
-                <HomePort>Port Canaveral</HomePort>
-                <Weight>449964</Weight>
-              </RightSection>
-            </CardDetails>
-          </CardInfo>
-        </Card>
-
-        <Card>
-          <ImageWrapper>
-            <Image src="/beach.jpg" width={360} height={200} alt="" />
+            <Image src="/spacex-rocket.jpg" width={360} height={200} alt="" />
           </ImageWrapper>
 
           <CardInfo>
@@ -71,7 +49,34 @@ const RescueShips = () => {
         <Card>
           <ImageWrapper>
             <Image
-              src="/beach.jpg"
+              src="/spacex-rocket-launch.jpg"
+              width={360}
+              height={200}
+              alt=""
+            />
+          </ImageWrapper>
+
+          <CardInfo>
+            <CardTitle>GO Ms Chief</CardTitle>
+            <LineBreak />
+            <CardDetails>
+              <LeftSection>
+                <HomePortTitle>HOME PORT</HomePortTitle>
+                <WeightTitle>WEIGHT [KG]</WeightTitle>
+              </LeftSection>
+
+              <RightSection>
+                <HomePort>Port Canaveral</HomePort>
+                <Weight>449964</Weight>
+              </RightSection>
+            </CardDetails>
+          </CardInfo>
+        </Card>
+
+        <Card>
+          <ImageWrapper>
+            <Image
+              src="/spacex-rocket-start.jpg"
               objectFit="cover"
               width={360}
               height={200}
@@ -80,7 +85,7 @@ const RescueShips = () => {
           </ImageWrapper>
 
           <CardInfo>
-            <CardTitle>GO Ms Tree</CardTitle>
+            <CardTitle>Just read the Instructions 2</CardTitle>
             <LineBreak />
 
             <CardDetails>

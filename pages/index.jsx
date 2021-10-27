@@ -7,10 +7,16 @@ import RescueShips from "../components/RescueShips/RescueShips";
 
 export default function Home({ launchesPast }) {
   console.log(launchesPast);
+
   const starlink12 = launchesPast.find(
     (obj) => obj.mission_name == "Starlink-12 (v1.0)"
   );
+  const starlink13 = launchesPast.find(
+    (obj) => obj.mission_name == "Starlink-13 (v1.0)"
+  );
+
   console.log(starlink12);
+  console.log(starlink13);
 
   return (
     <div>

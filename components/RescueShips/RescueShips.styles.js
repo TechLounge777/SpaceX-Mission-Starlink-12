@@ -22,6 +22,8 @@ export const Title = styled.h4`
   margin-right: auto;
   margin-top: 36px;
   letter-spacing: 0.1em;
+  padding-right: 15px;
+  padding-left: 15px;
   @media (max-width: 375px) {
     padding: 0 25px;
     margin-top: 17px;

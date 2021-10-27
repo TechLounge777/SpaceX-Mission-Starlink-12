@@ -16,6 +16,9 @@ export const Nav = styled.nav`
 
 export const LeftArrow = styled.div`
   display: flex;
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const Logo = styled.div`
@@ -27,4 +30,7 @@ export const Logo = styled.div`
 
 export const RightArrow = styled.div`
   display: flex;
+  &:hover {
+    cursor: pointer;
+  }
 `;
