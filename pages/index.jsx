@@ -11,6 +11,7 @@ export default function Home({ launchesPast }) {
     (obj) => obj.mission_name == "Starlink-12 (v1.0)"
   );
   console.log(starlink12);
+
   return (
     <div>
       <Head>
@@ -25,8 +26,8 @@ export default function Home({ launchesPast }) {
       </Head>
       <Navbar />
       <main>
-        <MissionStarlinkSection />
-        <RescueShips />
+        <MissionStarlinkSection starlink12={starlink12} />
+        <RescueShips starlink12={starlink12} />
       </main>
     </div>
   );
@@ -46,6 +47,8 @@ export async function getStaticProps() {
           launch_date_local
           launch_site {
             site_name_long
+            site_id
+            site_name
           }
           links {
             article_link
@@ -70,11 +73,18 @@ export async function getStaticProps() {
               }
             }
           }
+          ships {
+            name
+            home_port
+            image
+            weight_kg
+          }
         }
       }
     `,
   });
   const { launchesPast } = data;
+
   console.log(launchesPast);
   return {
     props: {
