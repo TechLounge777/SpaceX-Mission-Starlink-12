@@ -159,6 +159,8 @@ export const LaunchSiteTitle = styled.h4`
 `;
 
 export const LaunchSiteInfo = styled.h3`
+  display: flex;
+  justify-content: flex-end;
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
