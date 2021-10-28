@@ -167,6 +167,7 @@ export const LaunchSiteInfo = styled.h3`
   color: #ffffff;
   margin-bottom: 166px;
   @media (max-width: 375px) {
+    justify-content: flex-start;
     margin-bottom: 20px;
   }
 `;
