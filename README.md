@@ -2,6 +2,8 @@ Consuming the SpaceX API for fetching data using GetStaticProps from Next.js.
 
 A web application showing details of SpaceX flights. Created in an attempt to get familiar with Next.js, Apollo, and GraphQL.
 
+[http://spacex-mission-starlink-12.vercel.app/]
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
